@@ -73,7 +73,8 @@ img {
 
 @media screen and (min-width: 1024px) {
   .jumpoff p,
-  .jumpoff button {
+  .jumpoff button,
+  .powered-by {
     margin-left: 10vw;
   }
   body,
@@ -101,6 +102,15 @@ img {
     font-size: 12vw;
     margin-top: 0;
   }
+}
+
+.powered-by {
+  color: #fff;
+  font-size: 16px;
+}
+.powered-by img {
+  width: 3rem;
+  margin-bottom: -1px;
 }
 
 /* Lightrope */
