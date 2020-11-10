@@ -8,9 +8,9 @@ html {
   font-family: "Antic Slab", serif;
   background: #b21f23;
   line-height: 1.65;
-  background: url("./bg.jpeg");
+  background: url("./bg5.jpeg");
   background-size: cover;
-  background-position: center top;
+  background-position: right center;
   background-attachment: fixed;
 }
 
@@ -32,6 +32,11 @@ h6 {
   /* text-align: center; */
   padding: 1rem 2rem;
   box-sizing: border-box;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 button {
@@ -88,6 +93,7 @@ img {
   text-shadow: 0 2px 15px rgba(184, 149, 51, 0.81);
   margin: 0 0 2rem 0;
   margin-top: 3rem;
+  margin-left: 3vw;
 }
 
 @media screen and (min-width: 960px) {
