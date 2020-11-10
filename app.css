@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&Playfair+Display&display=swap');
+
 body,
 html {
   padding: 0;
   margin: 0;
   font-size: 19px;
-  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
   background: #b21f23;
   line-height: 1.65;
   background: url("./bg.jpeg");
@@ -45,7 +45,7 @@ button {
   margin-top: 2rem;
   border: none;
   font-size: inherit;
-  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
 }
 
 img {
