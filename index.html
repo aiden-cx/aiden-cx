@@ -1,6 +1,10 @@
 <html>
   <head>
-    <title>Cadeau keuzehulp voor de feestdagen!</title>
+    <title>Cadeau zoeken doe je met de cadeau keuzehulp!</title>
+    <meta
+      name="description"
+      content="Met de feestdagen voor de deur begint ook weer de stressvolle zoektocht naar cadeaus. Want hoe vind je nu online een goed cadeau in die enorme berg van producten? De oplossing: onze cadeau keuzehulp."
+    />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -11,10 +15,22 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:image" name="image" content="<%=
+    "https://#{@conn.host}#{Routes.static_path(@conn, "/images/thumbnail.jpg")}"
+    %>" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content="Aiden Logo" />
+
     <link rel="stylesheet" href="./app.css" />
 
     <!-- Plausible -->
-    <script async defer data-domain="themostwonderfultimeoftheyear.com" src="https://plausible.io/js/plausible.js"></script>
+    <script
+      async
+      defer
+      data-domain="themostwonderfultimeoftheyear.com"
+      src="https://plausible.io/js/plausible.js"
+    ></script>
   </head>
   <body>
     <ul class="lightrope">
